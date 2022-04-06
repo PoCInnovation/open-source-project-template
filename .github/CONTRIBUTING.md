@@ -1,0 +1,100 @@
+# Contributing to [PROJECT'S NAME]
+
+## GitHub Workflow
+
+The recommended workflow is to fork this repository and open pull requests from your fork.
+
+### 1. Fork, clone & configure [PROJECT'S NAME] upstream
+
+- Click on the _Fork_ button on GitHub
+- Clone your fork
+- Add the upstream repository as a new remote
+
+```sh
+# Clone repository
+git clone https://github.com/$YOUR_GITHUB_USER/$REPOSITORY.git
+
+# Add upstream origin
+git remote add upstream git@github.com:PoCInnovation/$REPOSITORY.git
+```
+
+### 2. Create a pull request
+
+```sh
+# Create a new branch
+git checkout -b my_branch
+
+# Make changes to your branch
+# ...
+
+# Commit changes - remember to sign!
+git commit -s
+
+# Push your new branch
+git push my_branch
+
+# Create a new pull request from https://github.com/PoCInnovation/$REPOSITORY
+```
+
+### 3. Update your pull request with latest changes
+
+```sh
+# Checkout main branch
+git checkout main
+
+# Update your fork's main branch from upstream
+git pull upstream main
+
+# Checkout your branch
+git checkout my_branch
+
+# Rebase your branch changes on top of the updated main branch
+git rebase main
+
+# Update your pull request with latest changes
+git push -f my_branch
+```
+
+## Commits
+
+### DCO
+
+Contributions to this project must be accompanied by a Developer Certificate of
+Origin (DCO).
+
+All commit messages must contain the Signed-off-by line with an email address that matches the commit author. When commiting, use the `--signoff` flag:
+
+```sh
+git commit -s
+```
+
+The Signed-off-by line must match the **author's real name**, otherwise the PR will be rejected.
+
+### Commit messages
+
+[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
+Guidelines:
+
+- **Group Commits:** Each commit should represent a meaningful change (e.g. implement feature X, fix bug Y, ...).
+  - For instance, a PR should not look like _1) Add Feature X 2) Fix Typo 3) Changes to features X 5) Bugfix for feature X 6) Fix Linter 7) ...
+  - Instead, these commits should be squashed together into a single "Add Feature" commit.
+- Each commit should work on its own: it must compile, pass the linter and so on.
+  - This makes life much easier when using `git log`, `git blame`, `git bisect`, etc.
+  - For instance, when doing a `git blame` on a file to figure out why a change
+  was introduced, it's pretty meaningless to see a _Fix linter_ commit message.
+  "Add Feature X" is much more meaningful.
+- Use `git rebase -i main` to group commits together and rewrite their commit message
+- To add changes to the previous commit, use `git commit --amend -s`. This will
+  change the last commit (amend) instead of creating a new commit.
+- Format: Use the imperative mood in the subject line: "If applied, this commit
+  will _your subject line here_"
+- Add the following prefixes to your commit message to help trigger automated processes[^1]:
+  - `docs:` for documentation changes only (e.g., `docs: Fix typo in X`);
+  - `test:` for changes to tests only (e.g., `test: Check if X does Y`);
+  - `chore:` general things that should be excluded (e.g., `chore: Clean up X`);
+  - `ci:` for internal CI specific changes (e.g., `ci: Enable X for tests`);
+
+[^1]: See [https://www.conventionalcommits.org](https://www.conventionalcommits.org)
+
+> Some of these contributing guidelines are taken from [Dagger's one](https://github.com/dagger/.github/blob/main/CONTRIBUTING.md#user-content-fn-1-cabc0a654fbe5140b6e7b427c8bc1a88) :pray:
