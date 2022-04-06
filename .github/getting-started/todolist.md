@@ -6,7 +6,8 @@
 - [ ] [Wiki sprint template](./wiki_sprint_template.md)
 - [ ] Update the [README.md](../../README.md)
 - [ ] Update the [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- [ ] Make this repository Public
+- [ ] Make this repository public
+- [ ] Create a public GitHub Project
 - [ ] Delete the `.github/getting-started` folder
 
 > If you have any questions, please contact the administration.
