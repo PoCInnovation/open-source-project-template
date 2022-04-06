@@ -2,8 +2,8 @@
 
 ## Create an issue
 
-- If you've encountered a bug, open a [Bug Report](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=bug_report.md&title=)
-- If you want [PROJECT'S NAME] to have a new fonctionality, open a [Feature Request](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=feature_request.md&title=)
+- If you've encountered a bug, open a [Bug Report](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=bug_report.md&title=).
+- If you want [PROJECT'S NAME] to have a new fonctionality, open a [Feature Request](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=feature_request.md&title=).
 
 ## Resolve an issue
 
@@ -14,15 +14,15 @@ The recommended workflow is to fork this repository and open pull requests from 
 ### 1. Fork, clone & configure [PROJECT'S NAME] upstream
 
 - Click on the _Fork_ button on GitHub
-- Clone your fork
-- Add the upstream repository as a new remote
+- Clone the original repository
+- Add your repository as a new remote
 
 ```sh
-# Clone repository
-git clone https://github.com/$YOUR_GITHUB_USER/$REPOSITORY.git
+# Clone original repository
+git clone git@github.com:PoCInnovation/$REPOSITORY.git
 
-# Add upstream origin
-git remote add upstream git@github.com:PoCInnovation/$REPOSITORY.git
+# Add your fork as a remove
+git remote add <fork_name> https://github.com/$YOUR_GITHUB_USER/$REPOSITORY.git
 ```
 
 ### 2. Create a pull request
@@ -38,7 +38,7 @@ git checkout -b my_branch
 git commit -s
 
 # Push your new branch
-git push my_branch
+git push <fork name>
 
 # Create a new pull request from https://github.com/PoCInnovation/$REPOSITORY/pulls
 ```
@@ -49,8 +49,8 @@ git push my_branch
 # Checkout main branch
 git checkout main
 
-# Update your fork's main branch from upstream
-git pull upstream main
+# Pull origin's change
+git pull
 
 # Checkout your branch
 git checkout my_branch
@@ -59,7 +59,7 @@ git checkout my_branch
 git rebase main
 
 # Update your pull request with latest changes
-git push -f my_branch
+git push -f <fork name>
 ```
 
 ## Commits
