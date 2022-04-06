@@ -8,3 +8,5 @@
 - [ ] Update the [CONTRIBUTING.md](../../CONTRIBUTING.md)
 - [ ] Make this repository Public
 - [ ] Delete the `.github/getting-started` folder
+
+> If you have any questions, please contact the administration.
