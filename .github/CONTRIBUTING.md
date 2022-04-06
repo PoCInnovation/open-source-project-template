@@ -1,6 +1,13 @@
 # Contributing to [PROJECT'S NAME]
 
-## GitHub Workflow
+## Create an issue
+
+- If you've encountered a bug, open a [Bug Report](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=bug_report.md&title=)
+- If you want [PROJECT'S NAME] to have a new fonctionality, open a [Feature Request](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=feature_request.md&title=)
+
+## Resolve an issue
+
+Select an [issue](https://github.com/PoCInnovation/$REPOSITORY/issues) that you want to resolve.
 
 The recommended workflow is to fork this repository and open pull requests from your fork.
 
@@ -33,7 +40,7 @@ git commit -s
 # Push your new branch
 git push my_branch
 
-# Create a new pull request from https://github.com/PoCInnovation/$REPOSITORY
+# Create a new pull request from https://github.com/PoCInnovation/$REPOSITORY/pulls
 ```
 
 ### 3. Update your pull request with latest changes

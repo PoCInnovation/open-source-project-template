@@ -1,6 +1,7 @@
 # Description
 
 Please provide a detailed description of what was done in this PR.
+Precise the issue that you are resolving.
 
 # Changes include
 
