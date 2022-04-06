@@ -1,4 +1,4 @@
-> If you see this section, you have juste created this repository [this template](https://github.com/PoCInnovation/intern-project-template).\
+> If you see this section, you have juste created a repository using [this template](https://github.com/PoCInnovation/intern-project-template).\
 > Check the [todolist](./.github/getting-started/todolist.md) before doing anything else.\
 > You can remove these comments after.
 
