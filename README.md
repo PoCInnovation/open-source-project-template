@@ -1,3 +1,7 @@
+> If you see this section, you have juste created this repository [this template](https://github.com/PoCInnovation/intern-project-template).\
+> Check the [todolist](./.github/getting-started/todolist.md) before doing anything else.\
+> You can remove these comments after.
+
 # [PROJECT'S NAME]
 
 [Project's description]
