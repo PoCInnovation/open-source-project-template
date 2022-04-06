@@ -103,5 +103,3 @@ Guidelines:
   - `ci:` for internal CI specific changes (e.g., `ci: Enable X for tests`);
 
 [^1]: See [https://www.conventionalcommits.org](https://www.conventionalcommits.org)
-
-> Some of these contributing guidelines are taken from [Dagger's one](https://github.com/dagger/.github/blob/main/CONTRIBUTING.md#user-content-fn-1-cabc0a654fbe5140b6e7b427c8bc1a88) :pray:
