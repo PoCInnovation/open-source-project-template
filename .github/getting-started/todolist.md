@@ -8,6 +8,7 @@
 - [ ] Update the [CONTRIBUTING.md](../../CONTRIBUTING.md)
 - [ ] Make this repository public
 - [ ] Create a public GitHub Project
+- [ ] Add a [discord integration](https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22), you're free to choose wich events are trigger
 - [ ] Delete the `.github/getting-started` folder
 
 > If you have any questions, please contact the administration.
