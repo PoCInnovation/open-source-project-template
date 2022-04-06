@@ -22,7 +22,7 @@
 
 ## Get involved
 
-You're invited to join this project ! Check out the [contributing guide](./.github/CONTRIBUTING.md).
+You're invited to join this project ! Check out the [contributing guide](./CONTRIBUTING.md).
 
 If you're interested in how the project is organized at a higher level, please contact the current project manager.
 
