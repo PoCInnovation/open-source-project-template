@@ -1,6 +1,6 @@
 # Todolist
 
-:warning: All these tasks must be done by the project manager before giving the repository to the members :warning
+:warning: All these tasks must be done by the project manager before giving the repository to the members :warning:
 
 - [ ] [Branch protection](./branch_protection_rules.md)
 - [ ] [Wiki sprint template](./wiki_sprint_template.md)
