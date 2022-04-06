@@ -2,7 +2,7 @@
 
 [Project's description]
 
-## How does it work ?
+## How does it work?
 
 [Explain how this project is working]
 
