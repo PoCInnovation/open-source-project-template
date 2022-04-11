@@ -148,7 +148,7 @@ The workflow to follow is :
 
 1) Create a milestone
 2) Create all the needed issues linked to this milestone
-3) Manage pull request linked with these issues using the GitHib project
+3) Manage the pull requests linked with these issues using the GitHib project
 4) Resolve these issues on branch `dev`
 5) Merge `dev` in `main`
 6) Publish a release
@@ -166,7 +166,7 @@ There are three parts :
 - Final Report
   > **:warning: It's checklist must be completed before starting a new sprint :warning:**
 
-Additional informations are written in milestones's checklists. Read them carefully !
+Additional informations are written in the milestones's checklists. Read them carefully !
 
 ### Issues
 
