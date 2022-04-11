@@ -115,6 +115,7 @@ This template provides some GitHub actions.
 A release is tool with changelogs that present a full history of a project.
 
 This template provides an [action](./workflows/release-drafter.yml) that drafts [next releases notes](./release-drafter.yml) as pull requests are merged into the main branch. You don't need to update it.
+> Check this [action's documentation](https://github.com/release-drafter/release-drafter) to understand how it works
 
 ### Settings
 
