@@ -1,6 +1,4 @@
-> If you see this section, you have juste created a repository using [this template](https://github.com/PoCInnovation/intern-project-template).\
-> Check the [todolist](./.github/getting-started/todolist.md) before doing anything else.\
-> You can remove these comments after.
+> If you see this section, you have juste created a repository using [PoC Innovation's Open-Source project template](https://github.com/PoCInnovation/open-source-project-template). Check the [`getting started guide`](./.github/getting-started.md).
 
 # [PROJECT'S NAME]
 
@@ -30,11 +28,11 @@ You're invited to join this project ! Check out the [contributing guide](./CONTR
 
 If you're interested in how the project is organized at a higher level, please contact the current project manager.
 
-## Our PoC team :rocket:
+## Our PoC team :heart:
 
 Developers
-| [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/rojasdiegopro) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy)
-| :---: | :---: |
+| [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy)
+| :---: | :---: | :---: |
 
 Manager
 | [<img src="https://github.com/adrienfort.png?size=85" width=85><br><sub>[Manager's name]</sub>](https://github.com/adrienfort)

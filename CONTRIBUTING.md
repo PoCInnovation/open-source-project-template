@@ -103,10 +103,10 @@ Then, follow these guidelines:
 - Format: Use the imperative mood in the subject line: "If applied, this commit
   will _your subject line here_"
 
-- Add the following prefixes to your commit message to help trigger automated processes[^1]:
+- Add the following prefixes to your commit message to help trigger [automated processes](https://www.conventionalcommits.org):
   - `docs:` for documentation changes only (e.g., `docs: Fix typo in X`);
   - `test:` for changes to tests only (e.g., `test: Check if X does Y`);
   - `chore:` general things that should be excluded (e.g., `chore: Clean up X`);
   - `ci:` for internal CI specific changes (e.g., `ci: Enable X for tests`);
 
-[^1]: See [https://www.conventionalcommits.org](https://www.conventionalcommits.org)
+> Made with :heart: by PoC
