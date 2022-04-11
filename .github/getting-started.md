@@ -46,16 +46,16 @@ This template provides the must-have documents.
 
 #### README.md
 
-The README.md is the showcase of your project. It always must be clean and consistent. Otherwise, no one will care your project.
+The README.md is the showcase of your project. It always must be clean and consistent. Otherwise, no one will care of your project.
 
-Fill every sections of your [README.md](../README.md).
+Fill every sections of the [README.md](../README.md).
 > If you add pictures, put them in the [assets](./assets/) folder.
 
 #### CONTRIBUTING.md
 
 The CONTRIBUTING.md is the guide to contribute to your project. It always must be clean and consistent. Otherwise, no one will contribute to your project.
 
-Fill every sections of your [CONTRIBUTING.md](../CONTRIBUTING.md).
+Fill every sections of the [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 #### LICENSE
 
@@ -86,17 +86,17 @@ Change the default assignee of the [feature_request](./ISSUE_TEMPLATE/bug_report
 
 A pull request is an event where a contributor asks a maintener to review code.
 
-This template provides a [pull request template](./pull_request_template.md). You do not need to update it.
+This template provides a [pull request template](./pull_request_template.md). You don't need to update it.
 
 #### Milestones
 
 A milestone helps to track progress on groups of issues or pull requests.
 
-This template provides a [milestone template](./milestone_template.md). You do not need to update it.
+This template provides a [milestone template](./milestone_template.md). You don't need to update it.
 
 ### Labels
 
-A label helps to categorize issues and pull request.
+A label helps to categorize issues and pull requests.
 
 Make sure to have the following labels :
 
@@ -127,13 +127,13 @@ This template provides some GitHub actions.
 
 A release is tool with changelogs that present a full history of a project.
 
-This template provides an [action](./workflows/release-drafter.yml) that drafts [next releases notes](./release-drafter.yml) as pull requests are merged into the main branch. You do not need to update it.
+This template provides an [action](./workflows/release-drafter.yml) that drafts [next releases notes](./release-drafter.yml) as pull requests are merged into the main branch. You don't need to update it.
 
 ### Settings
 
 #### Visibility
 
-Make your project public.
+Make your repository public.
 
 ## Sprints
 
@@ -166,6 +166,8 @@ There are three parts :
 - Final Report
   > **:warning: It's checklist must be completed before starting a new sprint :warning:**
 
+Additional informations are written in milestones's checklists. Read them carefully !
+
 ### Issues
 
 Create all the required issues of a sprint before starting it. Once the sprint started, no issue linked to it should be create.
@@ -176,7 +178,7 @@ You can discuss in a issue, do it as much as you can!
 
 ### Pull Requests
 
-**Each pull request must be linked to an issue and a GitHub project, have the right labels, be assigned to someone, have a reviewer.**
+**Each pull request must be linked to an issue and a GitHub project, have the right labels, be assigned to someone and have a reviewer.**
 
 You can discuss in a pull request, do it as much as you can!
 
@@ -188,7 +190,7 @@ It is a powerfull tool, use it well!
 
 ### Releases
 
-**Each update on the main branch must be leaked to a release.**
+**Each update on the main branch must be linked to a release.**
 
 Tag pull requests with the `patch`, `minor` or `major` labels.
 
