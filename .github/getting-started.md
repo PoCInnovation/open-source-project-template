@@ -16,7 +16,7 @@ For each of the following branches, add the required protections.
 
 #### `main`
 
-```mardown
+```markdown
 - [x] Require a pull request before merging
   - [x] Require approvals\
         Required number of approvals before merging: 1
