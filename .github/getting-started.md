@@ -53,6 +53,10 @@ This template provides an [Apache Licence 2.0](https://www.apache.org/licenses/L
 
 If your project doesn't belong to [PoC Innovation](https://github.com/PoCInnovation), make sure to update the copyrights of the [LICENCE](../LICENSE).
 
+### About
+
+Update the `About` section by adding a description, a website, and topics.
+
 ### Templates
 
 This template provides the must-have templates.
