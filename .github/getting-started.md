@@ -99,7 +99,7 @@ Make sure to have the following labels :
 - `minor` : Minor update (for release)
 - `patch` : Patch update (for release)
 - `question` : Further information is requested
-- `triage` : Need to be taged
+- `triage` : Need to be tagged
 - `wontfix` : This will not be worked on
 
 ### GitHub project
