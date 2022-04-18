@@ -18,7 +18,7 @@ For each of the following branches, add the required protections.
 
 ```markdown
 - [x] Require a pull request before merging
-  - [x] Require approvals\
+  - [x] Require approvals
         Required number of approvals before merging: 1
 
 - [x] Require status checks to pass before merging
