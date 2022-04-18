@@ -27,19 +27,6 @@ For each of the following branches, add the required protections.
 - [x] Require conversation resolution before merging
 ```
 
-#### `dev`
-
-```markdown
-- [x] Require a pull request before merging
-  - [x] Require approvals\
-        Required number of approvals before merging: 1
-
-- [x] Require status checks to pass before merging
-  - [x] Require branches to be up to date before merging
-
-- [x] Require conversation resolution before merging
-```
-
 ### Documents
 
 This template provides the must-have documents.
@@ -128,6 +115,7 @@ This template provides some GitHub actions.
 A release is tool with changelogs that present a full history of a project.
 
 This template provides an [action](./workflows/release-drafter.yml) that drafts [next releases notes](./release-drafter.yml) as pull requests are merged into the main branch. You don't need to update it.
+> Check this [action's documentation](https://github.com/release-drafter/release-drafter) to understand how it works
 
 ### Settings
 
@@ -149,10 +137,9 @@ The workflow to follow is :
 1) Create a milestone
 2) Create all the needed issues linked to this milestone
 3) Manage the pull requests linked with these issues using the GitHib project
-4) Resolve these issues on branch `dev`
-5) Merge `dev` in `main`
-6) Publish a release
-7) Close the milestone
+4) Resolve these issues
+5) Publish a release
+6) Close the milestone
 
 ### Milestones
 
