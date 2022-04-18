@@ -67,7 +67,7 @@ This template provides two issues templates :
 
 Change the default assignee of the [bug_report](./ISSUE_TEMPLATE/bug_report.yml) template.
 
-Change the default assignee of the [feature_request](./ISSUE_TEMPLATE/bug_report.yml) template.
+Change the default assignee of the [feature_request](./ISSUE_TEMPLATE/feature_request.yml) template.
 
 #### Pull Requests
 
