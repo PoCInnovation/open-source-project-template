@@ -3,7 +3,7 @@ description: File a feature request
 title: "[Feature]: "
 labels: ["feature", "triage"]
 assignees:
-  - Mikatech # Update it
+  - adrienfort # Update it
 body:
   - type: markdown
     attributes:
