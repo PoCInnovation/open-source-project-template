@@ -25,22 +25,6 @@
 - [ ] Issues created, with the rights labels and linked to this milestone
 - [ ] Issues assigned
 
-## Monitoring
-
-### Week 1
-
-[Detail this week's report]
-
-### Week 2
-
-[Detail this week's report]\
-[If this milestone's duration is less than 2 weeks, please delete this section]
-
-### Week 3
-
-[Detail this week's report]\
-[If this milestone's duration is less than 3 weeks, please delete this section]
-
 ## Final Report
 
 ### Checklist
@@ -61,5 +45,9 @@
 [Answer this question]
 
 **If not, why ?**
+
+[Answer this question if needed, otherwise delete it]
+
+**Anything to add ?**
 
 [Answer this question if needed, otherwise delete it]
