@@ -149,11 +149,9 @@ The workflow to follow is :
 
 Each milestones must use the [milestone template](./milestone_template.md).
 
-There are three parts :
+There are two parts :
 - Overall
   > **:warning: It's checklist must be completed before starting this sprint :warning:**
-- Monitoring
-  > **:warning: You must write a report each week :warning:**
 - Final Report
   > **:warning: It's checklist must be completed before starting a new sprint :warning:**
 
@@ -175,7 +173,7 @@ You can discuss in a pull request, do it as much as you can!
 
 ### GitHub project
 
-**No tasks (issue) must be created directly from the GitHub project. Create an issue using a template, it will automatically appears on the GitHub project.**
+**No tasks (issue) must be created directly from the GitHub project. Create an issue using a template, it will automatically appears on the GitHub project. Don't forget to archive the tasks once the milestone is closed.**
 
 It is a powerfull tool, use it well!
 
