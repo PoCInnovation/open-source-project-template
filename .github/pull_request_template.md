@@ -22,7 +22,7 @@ Please complete this section if any breaking changes have been made, otherwise d
 - [ ] I have linked this PR to a milestone
 - [ ] I have linked this PR to a project
 - [ ] I have tested this code
-- [ ] I have added / updated tests (unit / functionals / end-to-end / ...)
+- [ ] I have added / updated tests (unit / functional / end-to-end / ...)
 - [ ] I have updated the README and other relevant documents (guides...)
 - [ ] I have added sufficient documentation both in code, as well as in the READMEs
 

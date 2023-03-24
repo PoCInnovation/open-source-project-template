@@ -3,7 +3,7 @@
 ## Create an issue
 
 - If you've encountered a bug, open a [Bug Report](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=bug_report.md&title=).
-- If you want [PROJECT'S NAME] to have a new fonctionality, open a [Feature Request](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=feature_request.md&title=).
+- If you want [PROJECT'S NAME] to have a new functionality, open a [Feature Request](https://github.com/PoCInnovation/$REPOSITORY/issues/new?assignees=&labels=&template=feature_request.md&title=).
 
 ## Resolve an issue
 
@@ -29,7 +29,7 @@ git remote add <fork_name> https://github.com/$YOUR_GITHUB_USER/$REPOSITORY.git
 
 ```sh
 # Create a new branch
-git checkout -b my_branch
+git switch -c my_branch
 
 # Make changes to your branch
 # ...
@@ -46,14 +46,14 @@ git push <fork name>
 ### 3. Update your pull request with latest changes
 
 ```sh
-# Checkout main branch
-git checkout main
+# Switch to the main branch
+git switch main
 
 # Pull origin's change
 git pull
 
-# Checkout your branch
-git checkout my_branch
+# Switch to your branch
+git switch my_branch
 
 # Rebase your branch changes on top of the updated main branch
 git rebase main
@@ -69,7 +69,7 @@ git push -f <fork name>
 Contributions to this project must be accompanied by a Developer Certificate of
 Origin (DCO).
 
-All commit messages must contain the Signed-off-by line with an email address that matches the commit author. When commiting, use the `--signoff` flag:
+All commit messages must contain the Signed-off-by line with an email address that matches the commit author. When committing, use the `--signoff` flag:
 
 ```sh
 git commit -s
@@ -109,4 +109,4 @@ Then, follow these guidelines:
   - `chore:` general things that should be excluded (e.g., `chore: Clean up X`);
   - `ci:` for internal CI specific changes (e.g., `ci: Enable X for tests`);
 
-> Made with :heart: by PoC
+> Made with ❤️ by PoC

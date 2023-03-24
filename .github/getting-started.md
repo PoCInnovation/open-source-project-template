@@ -10,7 +10,7 @@ In this part, you will configure your project.
 
 ### Branches
 
-Branch protection is really important. It helps you to have controle on your code.
+Branch protection is really important. It helps you to have control on your code.
 
 For each of the following branches, add the required protections.
 
@@ -35,14 +35,14 @@ This template provides the must-have documents.
 
 The README.md is the showcase of your project. It always must be clean and consistent. Otherwise, no one will care of your project.
 
-Fill every sections of the [README.md](../README.md).
+Fill every sections of the [README.md](/README.md).
 > If you add pictures, put them in the [assets](./assets/) folder.
 
 #### CONTRIBUTING.md
 
 The CONTRIBUTING.md is the guide to contribute to your project. It always must be clean and consistent. Otherwise, no one will contribute to your project.
 
-Fill every sections of the [CONTRIBUTING.md](../CONTRIBUTING.md).
+Fill every sections of the [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 #### LICENSE
 
@@ -51,7 +51,7 @@ The LICENSE protects your code and contributors.
 This template provides an [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 > If you want another one, check this [guide](https://choosealicense.com).
 
-If your project doesn't belong to [PoC Innovation](https://github.com/PoCInnovation), make sure to update the copyrights of the [LICENCE](../LICENSE).
+If your project doesn't belong to [PoC Innovation](https://github.com/PoCInnovation), make sure to update the copyrights of the [LICENCE](/LICENSE).
 
 ### About
 
@@ -75,7 +75,7 @@ Change the default assignee of the [feature_request](./ISSUE_TEMPLATE/feature_re
 
 #### Pull Requests
 
-A pull request is an event where a contributor asks a maintener to review code.
+A pull request is an event where a contributor asks a maintainer to review code.
 
 This template provides a [pull request template](./pull_request_template.md). You don't need to update it.
 
@@ -91,20 +91,20 @@ A label helps to categorize issues and pull requests.
 
 Make sure to have the following labels :
 
-- `bug` : Something isn't working
-- `bugfix` : Resolve a bug
-- `chore` : Global maintenance
-- `documentation` : Improvements or additions to documentation
-- `duplicate` : This issue or pull request already exists
-- `enhancement` : New feature or request
-- `help wanted` : Extra attention is needed
-- `invalid` : This doesn't seem right
-- `major` : Major update (for release)
-- `minor` : Minor update (for release)
-- `patch` : Patch update (for release)
-- `question` : Further information is requested
-- `triage` : Need to be tagged
-- `wontfix` : This will not be worked on
+- `bug`: Something isn't working
+- `bugfix`: Resolve a bug
+- `chore`: Global maintenance
+- `documentation`: Improvements or additions to documentation
+- `duplicate`: This issue or pull request already exists
+- `enhancement`: New feature or request
+- `help wanted`: Extra attention is needed
+- `invalid`: This doesn't seem right
+- `major`: Major update (for release)
+- `minor`: Minor update (for release)
+- `patch`: Patch update (for release)
+- `question`: Further information is requested
+- `triage`: Need to be tagged
+- `wontfix`: This will not be worked on
 
 ### GitHub project
 
@@ -136,7 +136,7 @@ A task is associated as an issue.
 
 ### Workflow
 
-The workflow to follow is :
+The workflow to follow is:
 
 1) Create a milestone
 2) Create all the needed issues linked to this milestone
@@ -151,11 +151,11 @@ Each milestones must use the [milestone template](./milestone_template.md).
 
 There are two parts :
 - Overall
-  > **:warning: It's checklist must be completed before starting this sprint :warning:**
+  > **⚠️ It's checklist must be completed before starting this sprint ⚠️**
 - Final Report
-  > **:warning: It's checklist must be completed before starting a new sprint :warning:**
+  > **⚠️ It's checklist must be completed before starting a new sprint ⚠️**
 
-Additional informations are written in the milestones's checklists. Read them carefully !
+Additional information is written in the milestones's checklists. Read them carefully!
 
 ### Issues
 
@@ -175,7 +175,7 @@ You can discuss in a pull request, do it as much as you can!
 
 **No tasks (issue) must be created directly from the GitHub project. Create an issue using a template, it will automatically appears on the GitHub project. Don't forget to archive the tasks once the milestone is closed.**
 
-It is a powerfull tool, use it well!
+It is a powerful tool, use it well!
 
 ### Releases
 
@@ -187,7 +187,7 @@ Tag pull requests with the `patch`, `minor` or `major` labels.
 
 ### Discord Webhook
 
-We strongly advice you to have a discord channel on wich you will receive GitHub updates on your project.
+We strongly advice you to have a discord channel on which you will receive GitHub updates on your project.
 
 Follow this [tutorial](https://gist.github.com/SGTGunner/50d6a3cc0d489cf779f77695ba3e22ea).
 
@@ -199,6 +199,6 @@ Follow this [tutorial](https://docs.github.com/en/code-security/dependabot/depen
 
 ### Help
 
-If you have any questions, please contact [Adrien Fort](https://github.com/adrienfort).
+If you have any questions, please contact [Reza Rahemtola](https://github.com/RezaRahemtola).
 
-> Made with :heart: by PoC
+> Made with ❤️ by PoC
