@@ -21,7 +21,7 @@ The recommended workflow is to fork this repository and open pull requests from 
 # Clone original repository
 git clone git@github.com:PoCInnovation/$REPOSITORY.git
 
-# Add your fork as a remove
+# Add your fork as a remote
 git remote add <fork_name> https://github.com/$YOUR_GITHUB_USER/$REPOSITORY.git
 ```
 
